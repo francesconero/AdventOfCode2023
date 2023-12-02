@@ -30,12 +30,14 @@ common shared-settings
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:    base ^>=4.17.2.0,
-                      text
+                      text,
+                      regex-tdfa
     default-language: Haskell2010
 
 executable Day1Problem1
     import:           shared-settings
     main-is:          app/day1/Problem1.hs
 
-data-files:
-    app/day1/input
+executable Day1Problem2
+    import:           shared-settings
+    main-is:          app/day1/Problem2.hs
