@@ -61,3 +61,10 @@ executable Day3Problem1
     build-depends:    parsec
                     , parsec-numbers
                     , containers
+
+executable Day3Problem2
+    import:           shared-settings
+    main-is:          problems/day3/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
