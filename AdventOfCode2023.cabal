@@ -96,3 +96,17 @@ executable Day5Problem2
     build-depends:    parsec
                     , parsec-numbers
                     , containers
+
+executable Day6Problem1
+    import:           shared-settings
+    main-is:          problems/day6/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
+
+executable Day6Problem2
+    import:           shared-settings
+    main-is:          problems/day6/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
