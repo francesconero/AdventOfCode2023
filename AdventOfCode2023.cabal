@@ -124,3 +124,10 @@ executable Day7Problem2
     build-depends:    parsec
                     , parsec-numbers
                     , containers
+
+executable Day8Problem1
+    import:           shared-settings
+    main-is:          problems/day8/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
