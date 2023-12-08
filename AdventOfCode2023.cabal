@@ -131,3 +131,10 @@ executable Day8Problem1
     build-depends:    parsec
                     , parsec-numbers
                     , containers
+
+executable Day8Problem2
+    import:           shared-settings
+    main-is:          problems/day8/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
