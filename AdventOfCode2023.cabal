@@ -146,3 +146,11 @@ executable Day9Problem1
                     , parsec-numbers
                     , containers
                     , hmatrix
+
+executable Day9Problem2
+    import:           shared-settings
+    main-is:          problems/day9/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
+                    , hmatrix
