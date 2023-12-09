@@ -138,3 +138,11 @@ executable Day8Problem2
     build-depends:    parsec
                     , parsec-numbers
                     , containers
+
+executable Day9Problem1
+    import:           shared-settings
+    main-is:          problems/day9/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
+                    , hmatrix
