@@ -33,127 +33,127 @@ common shared-settings
                     , text
     default-language: Haskell2010
 
--- executable Day1Problem1
---     import:           shared-settings
---     main-is:          problems/day1/Problem1.hs
+executable Day1Problem1
+    import:           shared-settings
+    main-is:          problems/day1/Problem1.hs
 
--- executable Day1Problem2
---     import:           shared-settings
---     main-is:          problems/day1/Problem2.hs
+executable Day1Problem2
+    import:           shared-settings
+    main-is:          problems/day1/Problem2.hs
 
--- executable Day2Problem1
---     import:           shared-settings
---     main-is:          problems/day2/Problem1.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day2Problem1
+    import:           shared-settings
+    main-is:          problems/day2/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day2Problem2
---     import:           shared-settings
---     main-is:          problems/day2/Problem2.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day2Problem2
+    import:           shared-settings
+    main-is:          problems/day2/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day3Problem1
---     import:           shared-settings
---     main-is:          problems/day3/Problem1.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day3Problem1
+    import:           shared-settings
+    main-is:          problems/day3/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day3Problem2
---     import:           shared-settings
---     main-is:          problems/day3/Problem2.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day3Problem2
+    import:           shared-settings
+    main-is:          problems/day3/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day4Problem1
---     import:           shared-settings
---     main-is:          problems/day4/Problem1.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day4Problem1
+    import:           shared-settings
+    main-is:          problems/day4/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day4Problem2
---     import:           shared-settings
---     main-is:          problems/day4/Problem2.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day4Problem2
+    import:           shared-settings
+    main-is:          problems/day4/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day5Problem1
---     import:           shared-settings
---     main-is:          problems/day5/Problem1.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day5Problem1
+    import:           shared-settings
+    main-is:          problems/day5/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day5Problem2
---     import:           shared-settings
---     main-is:          problems/day5/Problem2.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day5Problem2
+    import:           shared-settings
+    main-is:          problems/day5/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day6Problem1
---     import:           shared-settings
---     main-is:          problems/day6/Problem1.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day6Problem1
+    import:           shared-settings
+    main-is:          problems/day6/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day6Problem2
---     import:           shared-settings
---     main-is:          problems/day6/Problem2.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day6Problem2
+    import:           shared-settings
+    main-is:          problems/day6/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day7Problem1
---     import:           shared-settings
---     main-is:          problems/day7/Problem1.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day7Problem1
+    import:           shared-settings
+    main-is:          problems/day7/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day7Problem2
---     import:           shared-settings
---     main-is:          problems/day7/Problem2.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day7Problem2
+    import:           shared-settings
+    main-is:          problems/day7/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day8Problem1
---     import:           shared-settings
---     main-is:          problems/day8/Problem1.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day8Problem1
+    import:           shared-settings
+    main-is:          problems/day8/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day8Problem2
---     import:           shared-settings
---     main-is:          problems/day8/Problem2.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
+executable Day8Problem2
+    import:           shared-settings
+    main-is:          problems/day8/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
 
--- executable Day9Problem1
---     import:           shared-settings
---     main-is:          problems/day9/Problem1.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
---                     , hmatrix
+executable Day9Problem1
+    import:           shared-settings
+    main-is:          problems/day9/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
+                    , hmatrix
 
--- executable Day9Problem2
---     import:           shared-settings
---     main-is:          problems/day9/Problem2.hs
---     build-depends:    parsec
---                     , parsec-numbers
---                     , containers
---                     , hmatrix
+executable Day9Problem2
+    import:           shared-settings
+    main-is:          problems/day9/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
+                    , hmatrix
 
 executable Day10Problem1
     import:           shared-settings
@@ -161,4 +161,10 @@ executable Day10Problem1
     build-depends:    parsec
                     , parsec-numbers
                     , containers
-                    , hmatrix
+
+executable Day10Problem2
+    import:           shared-settings
+    main-is:          problems/day10/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers

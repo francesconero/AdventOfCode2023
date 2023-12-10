@@ -94,8 +94,8 @@ main = do
               start = findStart tileMap
               firstStep = head $ findFlowingTo tileMap start
               destinations = walkUntil tileMap isStart firstStep
-              (stesTaken, _, _) = maximumBy (\(steps1, _, _) (steps2, _, _) -> compare steps1 steps2) destinations
-              halfway = ceiling $ fromIntegral stesTaken / 2
+              (stepsTaken, _, _) = maximumBy (\(steps1, _, _) (steps2, _, _) -> compare steps1 steps2) destinations
+              halfway = ceiling $ fromIntegral stepsTaken / 2
            in print halfway
         Left error -> print error
     _ -> putStrLn "Usage: stack run -- ./input_file"
