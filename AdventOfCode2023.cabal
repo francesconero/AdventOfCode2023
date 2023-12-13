@@ -185,9 +185,16 @@ executable Day11Problem2
                     , containers
                     , mtl
 
-executable Day12Problem2
+executable Day12Problem1
     import:           shared-settings
     main-is:          problems/day12/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
+
+executable Day12Problem2
+    import:           shared-settings
+    main-is:          problems/day12/Problem2.hs
     build-depends:    parsec
                     , parsec-numbers
                     , containers
