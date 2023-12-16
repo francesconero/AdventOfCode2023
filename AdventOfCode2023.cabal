@@ -227,9 +227,23 @@ executable Day14Problem2
                     , parsec-numbers
                     , containers
 
+executable Day15Problem1
+    import:           shared-settings
+    main-is:          problems/day15/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
+
 executable Day15Problem2
     import:           shared-settings
     main-is:          problems/day15/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
+
+executable Day16Problem1
+    import:           shared-settings
+    main-is:          problems/day16/Problem1.hs
     build-depends:    parsec
                     , parsec-numbers
                     , containers
