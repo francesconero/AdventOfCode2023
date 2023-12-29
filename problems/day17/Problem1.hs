@@ -5,7 +5,6 @@ import Data.List
 import qualified Data.Map as Map
 import Data.Map.Internal.Debug (node)
 import Data.Maybe
-import Debug.Trace
 import System.Environment (getArgs)
 import System.IO
 import Text.Parsec hiding (Empty)
@@ -81,11 +80,8 @@ main = do
           let map = nodesToMap all
               start = (1, 1)
               end = lowerRightcorner map
-           in traceShow
-                end
-                ( case findPath map start end of
-                    Just (cost, _) -> print cost
-                    Nothing -> putStrLn "No path found"
-                )
+           in case findPath map start end of
+                Just (cost, _) -> print cost
+                Nothing -> putStrLn "No path found"
         Left error -> print error
     _ -> putStrLn "Usage: stack run -- ./input_file"
