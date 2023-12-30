@@ -270,3 +270,10 @@ executable Day17Problem2
                     , parsec-numbers
                     , containers
                     , search-algorithms
+
+executable Day18Problem1
+    import:           shared-settings
+    main-is:          problems/day18/Problem1.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
