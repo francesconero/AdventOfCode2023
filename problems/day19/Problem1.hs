@@ -45,10 +45,10 @@ parseCondition = do
     case condition of
       '<' -> do
         value <- nat
-        return (<= value)
+        return (< value)
       '>' -> do
         value <- nat
-        return (>= value)
+        return (> value)
   return $ DynamicCondition partCategory condition
 
 parseRuleOutcome :: Parser RuleOutcome
