@@ -6,10 +6,16 @@ import System.Environment (getArgs)
 import System.IO
 import Text.Parsec
 
-initializationSequenceParser :: Parsec String Int Int
-initializationSequenceParser = do
-  c <- noneOf ","
-  current <- getState
+data Galaxy = Galaxy {x :: Int, y :: Int, ident :: Int} deriving (Show)
+
+instance Eq Galaxy where
+  (==) a b = ident a == ident b
+
+galaxyParser :: Parsec String Int Galaxy
+galaxyParser = do
+  pos <- getPosition
+  char '#'
+  ident <- getState
   modifyState (+ 1)
   return $ Galaxy (sourceLine pos) (sourceColumn pos) ident
 
