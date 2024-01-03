@@ -305,3 +305,10 @@ executable Day20Problem1
     build-depends:    parsec
                     , parsec-numbers
                     , containers
+
+executable Day20Problem2
+    import:           shared-settings
+    main-is:          problems/day20/Problem2.hs
+    build-depends:    parsec
+                    , parsec-numbers
+                    , containers
